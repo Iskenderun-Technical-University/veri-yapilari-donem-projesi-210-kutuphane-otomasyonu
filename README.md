@@ -1,1 +1,2 @@
-# veri-yapilari-donem-projesi-210-kutuphane-otomasyonu
+# 210 / KÜTÜPHANE OTOMASYONU
+ Developing by Azra Ş. , Metehan A.
