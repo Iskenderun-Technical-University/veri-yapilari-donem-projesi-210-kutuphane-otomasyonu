@@ -47,7 +47,7 @@
             // 
             // adGiristxt
             // 
-            this.adGiristxt.Location = new System.Drawing.Point(206, 151);
+            this.adGiristxt.Location = new System.Drawing.Point(206, 157);
             this.adGiristxt.Name = "adGiristxt";
             this.adGiristxt.Size = new System.Drawing.Size(278, 22);
             this.adGiristxt.TabIndex = 1;
@@ -95,7 +95,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Linen;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(556, 349);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.personelGirisbtn);
@@ -103,7 +103,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.adGiristxt);
             this.Controls.Add(this.sifreGiristxt);
-            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ForeColor = System.Drawing.Color.Black;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Ana Sayfa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
