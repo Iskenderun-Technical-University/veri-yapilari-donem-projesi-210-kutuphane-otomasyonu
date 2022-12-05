@@ -16,5 +16,20 @@ namespace KutuphaneOtomasyonu1
         {
             InitializeComponent();
         }
+
+        private void personelGirisbtn_Click(object sender, EventArgs e)
+        {
+            string gelenAd = adGiristxt.Text;
+            string gelenSifre = sifreGiristxt.Text;
+
+            if(gelenAd.Equals("admin") && gelenSifre.Equals("2412"))
+            {
+                MessageBox.Show(text: "Başarılı bir şekilde giriş yaptınız.");
+            }
+            else
+            {
+                MessageBox.Show(text: "Kullanıcı adı veya şifre hatalı.");
+            }
+        }
     }
 }
