@@ -30,14 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IslemPaneli));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.kullaniciBilgiPanel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.ekleKullanicibtn = new System.Windows.Forms.Button();
-            this.guncelleKullanicibtn = new System.Windows.Forms.Button();
             this.silKullanicibtn = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.guncelleKullanicibtn = new System.Windows.Forms.Button();
+            this.ekleKullanicibtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.kullaniciBilgiPanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -53,14 +51,50 @@
             this.panel1.Size = new System.Drawing.Size(238, 680);
             this.panel1.TabIndex = 0;
             // 
-            // kullaniciBilgiPanel
+            // silKullanicibtn
             // 
-            this.kullaniciBilgiPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.kullaniciBilgiPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.kullaniciBilgiPanel.Location = new System.Drawing.Point(238, 0);
-            this.kullaniciBilgiPanel.Name = "kullaniciBilgiPanel";
-            this.kullaniciBilgiPanel.Size = new System.Drawing.Size(804, 78);
-            this.kullaniciBilgiPanel.TabIndex = 1;
+            this.silKullanicibtn.BackColor = System.Drawing.Color.Silver;
+            this.silKullanicibtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.silKullanicibtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.silKullanicibtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.silKullanicibtn.Image = ((System.Drawing.Image)(resources.GetObject("silKullanicibtn.Image")));
+            this.silKullanicibtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.silKullanicibtn.Location = new System.Drawing.Point(0, 225);
+            this.silKullanicibtn.Name = "silKullanicibtn";
+            this.silKullanicibtn.Size = new System.Drawing.Size(238, 68);
+            this.silKullanicibtn.TabIndex = 4;
+            this.silKullanicibtn.Text = "Sil";
+            this.silKullanicibtn.UseVisualStyleBackColor = false;
+            // 
+            // guncelleKullanicibtn
+            // 
+            this.guncelleKullanicibtn.BackColor = System.Drawing.Color.Silver;
+            this.guncelleKullanicibtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guncelleKullanicibtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.guncelleKullanicibtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guncelleKullanicibtn.Image = ((System.Drawing.Image)(resources.GetObject("guncelleKullanicibtn.Image")));
+            this.guncelleKullanicibtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.guncelleKullanicibtn.Location = new System.Drawing.Point(0, 157);
+            this.guncelleKullanicibtn.Name = "guncelleKullanicibtn";
+            this.guncelleKullanicibtn.Size = new System.Drawing.Size(238, 68);
+            this.guncelleKullanicibtn.TabIndex = 3;
+            this.guncelleKullanicibtn.Text = "Güncelle";
+            this.guncelleKullanicibtn.UseVisualStyleBackColor = false;
+            // 
+            // ekleKullanicibtn
+            // 
+            this.ekleKullanicibtn.BackColor = System.Drawing.Color.Silver;
+            this.ekleKullanicibtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ekleKullanicibtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ekleKullanicibtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ekleKullanicibtn.Image = ((System.Drawing.Image)(resources.GetObject("ekleKullanicibtn.Image")));
+            this.ekleKullanicibtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ekleKullanicibtn.Location = new System.Drawing.Point(0, 89);
+            this.ekleKullanicibtn.Name = "ekleKullanicibtn";
+            this.ekleKullanicibtn.Size = new System.Drawing.Size(238, 68);
+            this.ekleKullanicibtn.TabIndex = 2;
+            this.ekleKullanicibtn.Text = "Ekle";
+            this.ekleKullanicibtn.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -78,60 +112,14 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ekleKullanicibtn
+            // kullaniciBilgiPanel
             // 
-            this.ekleKullanicibtn.BackColor = System.Drawing.Color.Silver;
-            this.ekleKullanicibtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.ekleKullanicibtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ekleKullanicibtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ekleKullanicibtn.Image = ((System.Drawing.Image)(resources.GetObject("ekleKullanicibtn.Image")));
-            this.ekleKullanicibtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.ekleKullanicibtn.Location = new System.Drawing.Point(0, 89);
-            this.ekleKullanicibtn.Name = "ekleKullanicibtn";
-            this.ekleKullanicibtn.Size = new System.Drawing.Size(238, 68);
-            this.ekleKullanicibtn.TabIndex = 2;
-            this.ekleKullanicibtn.Text = "Ekle";
-            this.ekleKullanicibtn.UseVisualStyleBackColor = false;
-            // 
-            // guncelleKullanicibtn
-            // 
-            this.guncelleKullanicibtn.BackColor = System.Drawing.Color.Silver;
-            this.guncelleKullanicibtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guncelleKullanicibtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.guncelleKullanicibtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guncelleKullanicibtn.Image = ((System.Drawing.Image)(resources.GetObject("guncelleKullanicibtn.Image")));
-            this.guncelleKullanicibtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.guncelleKullanicibtn.Location = new System.Drawing.Point(0, 157);
-            this.guncelleKullanicibtn.Name = "guncelleKullanicibtn";
-            this.guncelleKullanicibtn.Size = new System.Drawing.Size(238, 68);
-            this.guncelleKullanicibtn.TabIndex = 3;
-            this.guncelleKullanicibtn.Text = "Güncelle";
-            this.guncelleKullanicibtn.UseVisualStyleBackColor = false;
-            // 
-            // silKullanicibtn
-            // 
-            this.silKullanicibtn.BackColor = System.Drawing.Color.Silver;
-            this.silKullanicibtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.silKullanicibtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.silKullanicibtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.silKullanicibtn.Image = ((System.Drawing.Image)(resources.GetObject("silKullanicibtn.Image")));
-            this.silKullanicibtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.silKullanicibtn.Location = new System.Drawing.Point(0, 225);
-            this.silKullanicibtn.Name = "silKullanicibtn";
-            this.silKullanicibtn.Size = new System.Drawing.Size(238, 68);
-            this.silKullanicibtn.TabIndex = 4;
-            this.silKullanicibtn.Text = "Sil";
-            this.silKullanicibtn.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(244, 89);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(786, 512);
-            this.dataGridView1.TabIndex = 2;
+            this.kullaniciBilgiPanel.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.kullaniciBilgiPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.kullaniciBilgiPanel.Location = new System.Drawing.Point(238, 0);
+            this.kullaniciBilgiPanel.Name = "kullaniciBilgiPanel";
+            this.kullaniciBilgiPanel.Size = new System.Drawing.Size(804, 78);
+            this.kullaniciBilgiPanel.TabIndex = 1;
             // 
             // IslemPaneli
             // 
@@ -139,14 +127,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(1042, 680);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.kullaniciBilgiPanel);
             this.Controls.Add(this.panel1);
+            this.IsMdiContainer = true;
             this.Name = "IslemPaneli";
             this.Text = "IslemPaneli";
             this.Load += new System.EventHandler(this.IslemPaneli_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -159,6 +146,5 @@
         private System.Windows.Forms.Button guncelleKullanicibtn;
         private System.Windows.Forms.Button ekleKullanicibtn;
         private System.Windows.Forms.Button silKullanicibtn;
-        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
