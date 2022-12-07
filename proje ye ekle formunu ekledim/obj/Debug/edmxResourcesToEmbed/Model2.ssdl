@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KutuphaneOtomasyonModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="kullanici_id" />
+    </Key>
+    <Property Name="kullanici_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kullanici_ad" Type="nchar" MaxLength="50" />
+    <Property Name="kullanici_soyad" Type="nchar" MaxLength="50" />
+    <Property Name="kullanici_tc" Type="nchar" MaxLength="11" />
+    <Property Name="kullanici_mail" Type="nchar" MaxLength="50" />
+    <Property Name="kullanici_tel" Type="nchar" MaxLength="11" />
+    <Property Name="kullanici_ceza" Type="float" />
+    <Property Name="kullanici_cinsiyet" Type="nvarchar" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="Personeller">
+    <Key>
+      <PropertyRef Name="personel_id" />
+    </Key>
+    <Property Name="personel_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="personel_ad" Type="nchar" MaxLength="40" />
+    <Property Name="personel_soyad" Type="nchar" MaxLength="50" />
+    <Property Name="personel_tc" Type="nchar" MaxLength="11" />
+    <Property Name="personel_tel" Type="nchar" MaxLength="11" />
+    <Property Name="personel_mail" Type="nchar" MaxLength="50" />
+    <Property Name="personel_kullaniciAd" Type="nchar" MaxLength="50" />
+    <Property Name="personel_sifre" Type="nchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityContainer Name="KutuphaneOtomasyonModel1StoreContainer">
+    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Personeller" EntityType="Self.Personeller" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

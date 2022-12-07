@@ -1,0 +1,30 @@
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\bin\Debug\KutuphaneOtomasyonu1.exe.config
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\bin\Debug\KutuphaneOtomasyonu1.exe
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\bin\Debug\KutuphaneOtomasyonu1.pdb
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.csproj.AssemblyReference.cache
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.csproj.SuggestedBindingRedirects.cache
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.Form1.resources
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.Properties.Resources.resources
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.csproj.GenerateResource.cache
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.csproj.CoreCompileInputs.cache
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.exe
+C:\Users\azra şimşek\OneDrive\Masaüstü\Kutuphane_Otomasyonu_Win\KutuphaneOtomasyonu1\obj\Debug\KutuphaneOtomasyonu1.pdb
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\KutuphaneOtomasyonu1.exe.config
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\KutuphaneOtomasyonu1.exe
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\KutuphaneOtomasyonu1.pdb
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\EntityFramework.dll
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\EntityFramework.xml
+C:\Users\meteh\OneDrive\Masaüstü\proje\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.csproj.AssemblyReference.cache
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.csproj.SuggestedBindingRedirects.cache
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.Form1.resources
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.IslemPaneli.resources
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.KullaniciListeForm.resources
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.Properties.Resources.resources
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.csproj.GenerateResource.cache
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.csproj.CoreCompileInputs.cache
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.csproj.CopyComplete
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.exe
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.pdb
+C:\Users\meteh\OneDrive\Masaüstü\proje\obj\Debug\KutuphaneOtomasyonu1.Kullanici.KullaniciEkleForm.resources
