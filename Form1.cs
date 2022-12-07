@@ -12,7 +12,7 @@ namespace KutuphaneOtomasyonu1
 {
     public partial class Form1 : Form
     {
-         KutuphaneOtomasyonEntities db = new KutuphaneOtomasyonEntities();
+         KutuphaneOtomasyonEntities2 db = new KutuphaneOtomasyonEntities2();
         public Form1()
         {
             InitializeComponent();
@@ -37,6 +37,11 @@ namespace KutuphaneOtomasyonu1
                 this.Hide();
             }
         
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
